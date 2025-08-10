@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>두산베어스 응원 사이트</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/Doosan_Bears.svg/1200px-Doosan_Bears.svg.png" alt="두산베어스 로고" class="logo"/>
+    <h1>DOOSAN BEARS FAN (Unofficial)</h1>
+  </header>
+  <main>
+    <section>
+      <h2>팀 소식</h2>
+      <p>여기에 최신 경기 소식이나 팀 뉴스가 들어갑니다.</p>
+    </section>
+    <section>
+      <h2>경기 일정</h2>
+      <ul id="schedule"></ul>
+    </section>
+    <section>
+      <h2>응원 메시지</h2>
+      <button onclick="incrementLikes()">👍 좋아요 <span id="likes">0</span></button>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+body { font-family: Arial, sans-serif; margin:0; padding:0; background:#fffaf5; }
+.header { background:#000; color:white; padding:10px; display:flex; align-items:center; }
+.logo { height:50px; margin-right:15px; }
+h1 { margin:0; }
+main { padding:20px; }
+section { margin-bottom:20px; }
+button { background:#c8102e; color:white; border:none; padding:10px; cursor:pointer; border-radius:5px; }
+button:hover { background:#a50d24; }
