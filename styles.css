@@ -6,3 +6,7 @@ main { padding:20px; }
 section { margin-bottom:20px; }
 button { background:#c8102e; color:white; border:none; padding:10px; cursor:pointer; border-radius:5px; }
 button:hover { background:#a50d24; }
+.players-section { margin-bottom:30px; }
+.player-grid { display:flex; gap:20px; flex-wrap:wrap; }
+.player-card { background:white; border:1px solid #ddd; border-radius:8px; padding:10px; text-align:center; width:150px; }
+.player-card img { width:100%; height:auto; border-radius:4px; }
